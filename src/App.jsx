@@ -1,6 +1,7 @@
 import './App.css';
 import logoCalculator from'./img/Logo.png'
 import Button from './components/Button';
+import Screen from './components/Screen'
 function App() {
   return (
     <div className='App'>
@@ -12,10 +13,31 @@ function App() {
         />
       </div>
       <div className='cal_mainCon'>
-        <div className='cal_mainRow'><Button> 1 </Button></div>
-        <div className='cal_mainRow'><Button> 2 </Button></div>
-        <div className='cal_mainRow'></div>
-        <div className='cal_mainRow'></div>
+        <Screen output={10}/>
+        <div className='cal_mainRow'>
+          <Button> 1 </Button>
+          <Button> 2 </Button>
+          <Button> 3 </Button>
+          <Button> + </Button>
+        </div>
+        <div className='cal_mainRow'>
+          <Button> 4 </Button>
+          <Button> 5 </Button>
+          <Button> 6 </Button>
+          <Button> - </Button>
+        </div>
+        <div className='cal_mainRow'>
+          <Button> 7 </Button>
+          <Button> 8 </Button>
+          <Button> 9 </Button>
+          <Button> * </Button>
+        </div>
+        <div className='cal_mainRow'>
+          <Button> = </Button>
+          <Button> 0 </Button>
+          <Button> . </Button>
+          <Button> / </Button>
+        </div>
         <div className='cal_mainRow'></div>
       </div>
     </div>

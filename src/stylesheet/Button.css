@@ -1,9 +1,8 @@
 .cal_button{
-    height: 2.2rem;
+    width:  2,2rem;  
     display: flex;
     flex: 1 1;
     justify-content: center;
-    align-content: center;
     font-weight: bold;
     font-size: 2rem;
     color:  whitesmoke;
@@ -12,4 +11,21 @@
     margin: 4px;
     cursor: pointer;
     user-select: none;
+    transition: all 0.2s;
+}
+.cal_button:hover{
+    transition: all 0.2s;
+    background-color: whitesmoke;
+    color: rgb(110, 108, 108);
+}
+.-operador{
+    color: rgb(85, 255, 141);
+    border: 1px solid rgb(85, 255, 141);
+    transition: all 0.2s;
+    
+}
+.-operador:hover{
+    background-color: rgb(85, 255, 141);
+    transition: all 0.2s;
+    color: whitesmoke;
 }

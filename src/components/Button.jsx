@@ -4,9 +4,10 @@ function Button(props){
     const isOperator = val =>{
         return isNaN(val) && (val !== '.') && (val !== '=');
     }
+    const isFucntion = isOperator(props.children);    
     return(
         <div
-        className={`cal_button ${isOperator(props.children)  ? '-operador' : '-null'}`.trimEnd()}>
+        className={`cal_button ${isFucntion ? '-operador' : '-null'}`.trimEnd()}>
             {props.children}
         </div>
     );

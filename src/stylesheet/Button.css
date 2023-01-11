@@ -1,0 +1,15 @@
+.cal_button{
+    height: 2.2rem;
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    align-content: center;
+    font-weight: bold;
+    font-size: 2rem;
+    color:  whitesmoke;
+    border-radius: 13px;
+    border: 1px solid whitesmoke;
+    margin: 4px;
+    cursor: pointer;
+    user-select: none;
+}

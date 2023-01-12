@@ -7,7 +7,8 @@ function Button(props){
     const isFucntion = isOperator(props.children);    
     return(
         <div
-        className={`cal_button ${isFucntion ? '-operador' : '-null'}`.trimEnd()}>
+        className={`cal_button ${isFucntion ? '-operador' : '-null'}`.trimEnd()}
+        onClick={() => props.addValue(props.children)}>
             {props.children}
         </div>
     );

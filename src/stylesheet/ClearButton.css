@@ -1,0 +1,21 @@
+.cal_ClearButton{
+    width:  100%;  
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2rem;
+    color:  lightcoral;
+    border-radius: 13px;
+    border: 1px solid lightcoral;
+    margin: 4px;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.2s;
+}
+.cal_ClearButton:hover{
+    transition: all 0.2s;
+    background-color: lightcoral;
+    color: whitesmoke;
+}
+  

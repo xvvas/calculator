@@ -1,6 +1,6 @@
 import React from "react";
-
-const ClearButton = ({ props }) => (
+import '../stylesheet/ClearButton.css'
+const ClearButton = ( props ) => (
     <div className="cal_ClearButton">{props.children}</div>
 )
     

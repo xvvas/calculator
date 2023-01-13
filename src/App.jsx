@@ -1,3 +1,4 @@
+//import area
 import './App.css';
 import logoCalculator from'./img/Logo.png'
 import Button from './components/Button';
@@ -5,6 +6,7 @@ import Screen from './components/Screen'
 import ClearButton from './components/ClearButton';
 import { useState } from 'react';
 import { evaluate } from 'mathjs';
+// area of the calculator functionality
 function App() {
    
   const [output, setOutput] = useState('');
@@ -24,7 +26,7 @@ function App() {
 
     }
   }
-
+// html visuals area
   return (
     <div className='App'>
       <div className='cal_logoContainer'> 
